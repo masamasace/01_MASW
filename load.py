@@ -40,7 +40,4 @@ def setup_figure(num_row=1, num_col=1, width=6, height=6, left=0.125, right=0.9,
     fig.subplots_adjust(left=left, right=right, hspace=hspace, wspace=wspace)
     return (fig, axes)
 
-        
-sg2_path = r"F:\Shiga Dropbox\01_work\04_2021-_assistant professor\01_research\02_field survey\2021\202104_Hokkaido\01_MASW\20210415\utsukushi_1\sxea0053.sg2"
-data = SG2(sg2_path)
-data.draw_figure()
+
